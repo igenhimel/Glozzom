@@ -53,18 +53,18 @@
 #home {
   padding-top: 60px; }
   #home .carousel-img1 {
-    background-image: url("/assets/image/pexels-lumn-167699.jpg");
+    background-image: url("../image/pexels-lumn-167699.jpg");
     background-size: cover;
     height: 450px;
     background-size: cover;
     background-position: 0; }
   #home .carousel-img2 {
-    background-image: url("/assets/image/pexels-pixabay-206359.jpg");
+    background-image: url("../image/pexels-pixabay-206359.jpg");
     background-size: cover;
     height: 450px;
     background-position: 0; }
   #home .carousel-img3 {
-    background-image: url("/assets/image/pexels-tobi-620337.jpg");
+    background-image: url("../image/pexels-tobi-620337.jpg");
     background-size: cover;
     height: 450px;
     background-position: 0; }
