@@ -42,6 +42,9 @@
 .navbar-overlay-js {
   transform: translateX(0%); }
 
+.navbar-overlay-js2 {
+  transform: translateX(0%) !important; }
+
 .brand-none {
   display: none; }
 
@@ -70,6 +73,11 @@
     background-position: 0; }
   #home .carousel-indicators li {
     height: 4px !important; }
+
+#icons .fa {
+  font-size: 45px;
+  margin-bottom: 5px;
+  transition: 0.4s; }
 
 @media only screen and (max-width: 576px) {
   #home .carousel-caption h2 {
