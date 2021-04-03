@@ -15,7 +15,10 @@ $('.close-nav').click(function () {
     $('.navbar-brand').toggleClass('brand-none');
     
 });
-
+AOS.init({
+    easing:'ease-in-out',
+    duration:600
+});
 
 
 

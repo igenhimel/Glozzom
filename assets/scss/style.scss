@@ -117,6 +117,18 @@
 
 }
 
+#ready{
+    background-image: url("../image/pexels-andrea-piacquadio-3756681.jpg");
+    background-position:center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    .ready-overlay{
+        background:rgba(17, 2, 2,0.6)
+    }
+}
+
  
  
 
