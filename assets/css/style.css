@@ -88,6 +88,29 @@
   #ready .ready-overlay {
     background: rgba(17, 2, 2, 0.6); }
 
+#play {
+  background-image: url("../image/pexels-fauxels-3183150.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  #play .play-overlay {
+    background: rgba(17, 2, 2, 0.7); }
+  #play i {
+    font-size: 50px;
+    color: red; }
+
+@media only screen and (max-width: 992px) {
+  #home .carousel-caption h2 {
+    font-size: 3.0rem; }
+  #gallery .ClickShow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  #gallery .ClickShow h4 {
+    color: darkgrey !important; } }
+
 @media only screen and (max-width: 576px) {
   #home .carousel-caption h2 {
     font-size: 3.0rem; } }

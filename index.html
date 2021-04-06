@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Glozzom</title>
+    <link rel="stylesheet" href="assets/css/uikit.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -13,6 +14,8 @@
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/bsnav.min.css">
     <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+
 </head>
 <body>
 
@@ -68,7 +71,7 @@
                 <div class="carousel-item active carousel-img2" id="banner">
                    <div class="container">
                     <div class="carousel-caption mb-3 pb-3 pb-sm-5 mb-sm-55 text-light">
-                        <h2 class="display-4">Heading One</h2>
+                        <h2 class="display-4 text-white">Heading One</h2>
                         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis at esse, voluptatibus tenetur ab obcaecati. Voluptatem expedita fugit minima sapiente!</p>
                         <button class="btn btn-danger">Read More</button>
                       </div>
@@ -86,7 +89,7 @@
                 <div class="carousel-item carousel-img3">
                     <div class="container">
                         <div class="carousel-caption mb-3 pb-3 pb-sm-5 mb-sm-5 text-light text-right">
-                            <h2 class="display-4">Heading Three</h2>
+                            <h2 class="display-4 text-white">Heading Three</h2>
                             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis at esse, voluptatibus tenetur ab obcaecati. Voluptatem expedita fugit minima sapiente!</p>
                             <button class="btn btn-warning">Read More</button>
                           </div>
@@ -147,7 +150,7 @@
 
             <div class="row">
                 <div class="col text-center text-light" data-aos="flip-left" data-aos-delay="50">
-                    <h3>Are You Ready To Get Started?</h3>
+                    <h3 class="text-white">Are You Ready To Get Started?</h3>
                     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quaerat voluptatem laboriosam vero recusandae repellendus? Impedit iure est sit voluptatum blanditiis cum sequi laudantium quod dicta, a quaerat vel, obcaecati!</p>
                 </div>
             </div>
@@ -167,17 +170,64 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque dignissimos recusandae nobis reiciendis voluptatem quae iusto, fugiat itaque iste explicabo.</p>
                     <button class="btn btn-outline-secondary">Read More</button>
                 </div>
-                <div class="col-12 col-lg-6 mt-2 mt-lg-0" data-aos="fade-left" data-aos-delay="800"
-                data-aos-easing="ease-in-sine">
+                <div class="col-12 col-lg-6 mt-2 mt-lg-0">
                    <img class="img-fluid rounded" src="assets/image/pexels-tobi-620337.jpg" alt="">
                 </div>
             </div>
         </div>
 
     </section>
+
+
+
+    <section id="play" class="text-center" data-aos="fade-up">
+
+        <div class="play-overlay">
+
+            <div class="play-inner py-5" >
+
+                <div class="container">
+                    <div class="mb-2" uk-lightbox="animation: scale">
+                        <a href="https://youtu.be/YDPQ-s3Lwnw" data-attrs="width: 1280; height: 720;"><i class="fa fa-play"></i></a>
+                    </div>
+                    <h3 class="text-light">Bootstrap 4 Application</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
     
 
-    
+    <section id="gallery" class="text-center py-5">
+
+        <div class="container">
+            <h3>Photo Gallery</h3>
+            <h6>Check Out Our Photos</h6>
+
+            <div class="row mt-5">
+                <div class="col-12 col-lg-4 f1-img">
+                    <a class="caption" href="assets/image/pexels-fauxels-3183150.jpg" data-lightbox="roadtrip">
+                    <img src="assets/image/pexels-fauxels-3183150.jpg" alt="">
+                     <div class="ClickShow d-lg-none">
+                       <h4>Click To Show All Images</h4>
+                     </div>
+                    </a>
+                </div>
+                <div class="col-4 d-none d-lg-block">
+                    <a href="assets/image/pexels-lumn-167699.jpg" data-lightbox="roadtrip">
+                    <img src="assets/image/pexels-lumn-167699.jpg" alt=""></a>
+                </div>
+                <div class="col-4 d-none d-lg-block">
+                    <a href="assets/image/pexels-pratik-gupta-2748716 (1).jpg" data-lightbox="roadtrip">
+                    <img src="assets/image/pexels-pratik-gupta-2748716 (1).jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
     
         
   
@@ -190,7 +240,9 @@
     <script src="assets/js/aos.js"></script>
     <script src="assets/js/particles.js"></script>
     <script src="assets/js/app.js"></script>
-    <script src="assets/js/apps.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/uikit.min.js"></script>
+    <script src="assets/js/uikit-icons.min.js"></script>
     <script src="assets/js/main.js"></script>
 
 </body>
