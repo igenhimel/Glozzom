@@ -29,6 +29,12 @@
   width: 250px;
   transition: 0.8s; }
 
+.nav-link.active {
+  background-color: white;
+  width: 250px;
+  transition: 0.8s;
+  color: black !important; }
+
 .navbar-overlay {
   position: fixed;
   left: 0;
@@ -100,6 +106,19 @@
     font-size: 50px;
     color: red; }
 
+#about {
+  padding-top: 60px; }
+  #about .about-home {
+    background-image: url("../image/pexels-fauxels-3183150.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 200px; }
+  #about .about-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 200px; }
+
 @media only screen and (max-width: 992px) {
   #home .carousel-caption h2 {
     font-size: 3.0rem; }
@@ -110,6 +129,9 @@
     transform: translate(-50%, -50%); }
   #gallery .ClickShow h4 {
     color: darkgrey !important; } }
+
+#footer {
+  background-color: #000; }
 
 @media only screen and (max-width: 576px) {
   #home .carousel-caption h2 {
